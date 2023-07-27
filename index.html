@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <script>
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-101051168-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Natan Derroitte with the use of start bootstrap">
+
+    <title>Natan Derroitte</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
+    <script src="js/Librairies/p5.js"></script>
+    <script src="js/Librairies/p5.dom.js"></script>
+    <script src="js/Librairies/p5.sound.js"></script>
+
+    <script src="js/sketch.js"></script>
+
+    <!-- Custom styles for this template -->
+    <link href="css/grayscale.min.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Natan Derroitte</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#About">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#Projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#CV">CV</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#Contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="masthead">
+      <div class="intro-body">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h1 class="brand-heading">
+                <span id="MainTitle"  onmouseover="start('firstText')" onmouseout="end('firstText');">. </span>
+                </h1>
+              <p class="intro-text" id="introText"><span id="firstText">Computer Sciences and Engineering Student</span>
+                <br><span id="Unif"> University of Liege </span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="About" class="content-section text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>Hi!</h2>
+            <p> My name is Natan Derroitte. I'm currently <span class="green">studying Civil Engineering</span> in the Faculty of Applied Science at the University of Liège. </p>
+            <p> After having chosen electricity and computer science as my main options during my bachelor's degree, I'm now following a <span class="green">master's degree in Computer Science and Engineering</span>. Between the different focus, I picked
+              <span class="green"><i> Intelligent Systems </i></span> as my main option during this master. </p>
+            <p>This website mainly contain my <u><a class="js-scroll-trigger" href="#CV">curriculum vitae</a></u> along with some personal <u><a href="#Projects" class="js-scroll-trigger">projects</a></u> I made. Feel free to contact me if you want us to
+              get in touch.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="Projects" class="download-section content-section text-center">
+      <div class="container">
+        <div class="col-lg-8 mx-auto">
+          <h2>Projects</h2>
+          <p>While learning programtion I made several projects, some for the University, some other for myself. Most of them can be found on my <a href="https://github.com/nDerroitte">github</a> account. </p>
+          <p>The first slide on the website, the appearing the stars, is a small project I made using the <a href="https://p5js.org/">p5.js</a> library of JavaScript. Using this library, I made several other little projects and as they are very visual, I
+            uploaded most of them in the following website.
+          </p>
+          <a href="p5.html" class="btn btn-default btn-lg">p5.js projects</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="CV" class="content-section text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>Curriculum vitae</h2>
+            <p>You can find my CV at the following link.</p>
+            <a href="img/cv.pdf" download class="btn btn-default btn-lg">Curriculum vitae</a>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <!-- CV -->
+    <section id="Contact" class="contact-section content-section text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>Contact</h2>
+            <p> Here are my informations. Feel free to send me a message!
+              <ul class="list-inline banner-social-buttons">
+                <li class="list-inline-item">
+                  <a href="https://www.linkedin.com/in/natanderroitte/" class="btn btn-default btn-lg">
+                  <i class="fa fa-linkedin fa-fw"></i>
+              <span class="network-name">Linked In</span>
+              </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://github.com/nDerroitte" class="btn btn-default btn-lg">
+                  <i class="fa fa-github fa-fw"></i>
+                  <span class="network-name">Github</span>
+                </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="mailto:natan.derroitte@gmail.com" class="btn btn-default btn-lg">
+                  <i class="fa fa-envelope fa-fw"></i>
+                  <span class="network-name">Mail</span>
+                </a>
+                </li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+      <div class="container text-center">
+        Copyright (c) Natan Derroitte 2018.| Built with <a href="https://startbootstrap.com/"> Bootstrap </a>| <a href="OldWWW/index.html">Previous website<a></p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/grayscale.min.js"></script>
+
+  </body>
+
+</html>
